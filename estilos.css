@@ -210,23 +210,24 @@ body{
 
     display: flex;
     justify-content: center;
-    
+    width: 350px;
+    height: 350px;
     
 }
 
 .ultimaImagen img {
-    width: 350px;
-    height: 350px;
+   
     object-fit: cover;
     margin-bottom: 8px;
     border-radius: 12px;   
 }
 @media screen and (max-width: 800px) {
+
     .ciudadesImagenes img {
         flex: 1 1 100%;
     }
     .ultimaImagen img{
-        width: 80%;
+        width: 100%;
     }
 }
 .negrita{
