@@ -173,10 +173,10 @@ body{
 
     padding: 20px;
     margin-top: 75px;
-    margin-left: 77px;
+    margin-left: 7%;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;     
 }
 .frase{
     font-size: 32px;
